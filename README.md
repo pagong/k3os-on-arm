@@ -3,9 +3,9 @@ How to run Rancher Labs' K3OS on several, different ARM boards.
 
 ## ARM64 boards
 
-| Status | ARM64 single board computer |
-----------------------------------------
-| Wip    |  [Odroid-C2](https://github.com/pagong/k3os-on-arm/tree/master/arm64/odroid-c2) |
+| Status | arm64 SBC     |
+|--------|---------------|
+| Wip    | [Odroid-C2](https://github.com/pagong/k3os-on-arm/tree/master/arm64/odroid-c2)  |
 | Wip    | [RPi3](https://github.com/pagong/k3os-on-arm/tree/master/arm64/raspberry-pi3)   |
 | Tbd    | [Odroid-N2](https://github.com/pagong/k3os-on-arm/tree/master/arm64/odroid-n2)  |
 | Tbd    | [BPi-M64](https://github.com/pagong/k3os-on-arm/tree/master/arm64/bananapi-m64) |
@@ -13,8 +13,8 @@ How to run Rancher Labs' K3OS on several, different ARM boards.
 
 ## ARM32 boards
 
-| Status | ARM32 single board computer |
-----------------------------------------
+| Status | arm32 SBC     |
+|--------|---------------|
 | Tbd    | [RPi2](https://github.com/pagong/k3os-on-arm/tree/master/arm32/raspberry-pi2)      |
 | Tbd    | [Odroid-C1](https://github.com/pagong/k3os-on-arm/tree/master/arm32/odroid-c1)     |
 | Tbd    | [Odroid-Hc1](https://github.com/pagong/k3os-on-arm/tree/master/arm32/odroid-hc1)   |
