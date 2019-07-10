@@ -15,8 +15,11 @@ sum2=$( grep -h k3os-rootfs-arm64.tar $REL/k3os-sha256sum-arm64.txt | cut -d' ' 
 
 if [ "$sum1" = "$sum2" ] ; then
     echo "Download OK!"
-    exit 0
 else
     echo "BAD Download !!!"
     exit 1
 fi
+
+ln -sf $REL/k3os-rootfs-arm64.tgz k3os-arm64.tgz
+
+exit 0
