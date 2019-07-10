@@ -15,11 +15,13 @@ How to run Rancher Labs' K3OS on several, different ARM boards.
 
 | Status | arm32 SBC     |
 |--------|---------------|
-| Tbd    | [RPi2](https://github.com/pagong/k3os-on-arm/tree/master/arm32/raspberry-pi2)      |
+| Wip    | [RPi2](https://github.com/pagong/k3os-on-arm/tree/master/arm32/raspberry-pi2)      |
+| Wip    | [RPi3](https://github.com/pagong/k3os-on-arm/tree/master/arm32/raspberry-pi3)      |
 | Tbd    | [Odroid-C1](https://github.com/pagong/k3os-on-arm/tree/master/arm32/odroid-c1)     |
 | Tbd    | [Odroid-Hc1](https://github.com/pagong/k3os-on-arm/tree/master/arm32/odroid-hc1)   |
 | Tbd    | [BPi-M1](https://github.com/pagong/k3os-on-arm/tree/master/arm32/bananapi-m1)      |
 | Tbd    | [Tinkerboard](https://github.com/pagong/k3os-on-arm/tree/master/arm32/tinkerboard) |
+| Tbd    | [RPi4](https://github.com/pagong/k3os-on-arm/tree/master/arm32/raspberry-pi4)      |
 
 ## Additional information
 See the [wiki](https://github.com/pagong/k3os-on-arm/wiki) for more details.
