@@ -1,0 +1,22 @@
+#!/bin/bash
+#
+# download k3os rootfs for arm32
+
+REL="v0.2.1"
+mkdir -p $REL
+
+curl -L  https://github.com/rancher/k3os/releases/download/$REL/sha256sum-arm.txt        -o  $REL/k3os-sha256sum-arm32.txt
+curl -L  https://github.com/rancher/k3os/releases/download/$REL/k3os-rootfs-arm.tar.gz   -o  $REL/k3os-rootfs-arm32.tgz
+
+SUM=$( sha256sum $REL/k3os-rootfs-arm32.tgz )
+sum1=$( echo $SUM | cut -d' ' -f 1)
+
+sum2=$( grep -h k3os-rootfs-arm.tar $REL/k3os-sha256sum-arm32.txt | cut -d' ' -f1 )
+
+if [ "$sum1" = "$sum2" ] ; then
+    echo "Download OK!"
+    exit 0
+else
+    echo "BAD Download !!!"
+    exit 1
+fi
