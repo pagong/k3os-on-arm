@@ -1,6 +1,6 @@
-# How to run k3OS on single board computers with arm64 cpus.
+## How to run k3OS on single board computers with arm64 cpus.
 
-## Useful hints for "overlay" installations
+### Useful hints for "overlay" installations
 
   - download the k3os rootfs TGZ
   - go to the directory for your SBC
