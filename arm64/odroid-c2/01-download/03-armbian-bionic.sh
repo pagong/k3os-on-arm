@@ -2,7 +2,10 @@
 #
 # download armbian bionic image for odroid-c2
 
-IMAGE=Armbian_5.86_Odroidc2_Ubuntu_bionic_next_4.19.42
+#IMAGE=Armbian_5.86_Odroidc2_Ubuntu_bionic_next_4.19.42
+IMAGE=Armbian_5.90_Odroidc2_Ubuntu_bionic_next_4.19.57
+
+#https://dl.armbian.com/odroidc2/archive/Armbian_5.90_Odroidc2_Ubuntu_bionic_next_4.19.57.7z
 
 DIR=bionic
 mkdir -p $DIR

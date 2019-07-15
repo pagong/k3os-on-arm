@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# write armbian stretch image to SD card
+# write armbian buster image to SD card
 
 DEVICE=/dev/sdc
 
