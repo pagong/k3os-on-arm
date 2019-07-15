@@ -5,7 +5,7 @@
 REL=v1.10.1
 IMAGE=hypriotos-rpi-$REL.img
 
-#https://github.com/hypriot/image-builder-odroid-c2/releases/download/v0.4.1/hypriotos-odroid-c2-v0.4.1.img.zip
+#https://github.com/hypriot/image-builder-rpi/releases/download/v1.10.1/hypriotos-rpi-v1.10.1.img.zip
 
 DIR=hypriotos
 mkdir -p $DIR
