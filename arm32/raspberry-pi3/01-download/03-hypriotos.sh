@@ -2,10 +2,10 @@
 #
 # download hypriotos image for raspberry-pi3
 
-REL=v1.10.1
+REL=v1.11.1
 IMAGE=hypriotos-rpi-$REL.img
 
-#https://github.com/hypriot/image-builder-rpi/releases/download/v1.10.1/hypriotos-rpi-v1.10.1.img.zip
+#https://github.com/hypriot/image-builder-rpi/releases/download/v1.11.1/hypriotos-rpi-v1.11.1.img.zip
 
 DIR=hypriotos
 mkdir -p $DIR
